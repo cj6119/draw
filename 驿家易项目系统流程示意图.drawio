@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="mHqJrGGj11igePJ7KeVA">
-    <mxGraphModel dx="3096" dy="2124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="590" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,10 +22,10 @@
         <mxCell id="guJBmaV_uXlGGpxNqSXt-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="提示：强制输入重量" vertex="1">
           <mxGeometry height="54" width="204" x="69" y="517" as="geometry" />
         </mxCell>
-        <mxCell id="guJBmaV_uXlGGpxNqSXt-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="读取误差值&gt; 0.5kg（可配置）" vertex="1">
+        <mxCell id="guJBmaV_uXlGGpxNqSXt-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="读取误差值 1kg（可配置）" vertex="1">
           <mxGeometry height="54" width="260" x="345" y="517" as="geometry" />
         </mxCell>
-        <mxCell id="guJBmaV_uXlGGpxNqSXt-30" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="实际揽收重量与下单重量超出误差？" vertex="1">
+        <mxCell id="guJBmaV_uXlGGpxNqSXt-30" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#FF3333,#CCCCCC);" value="实际计费重量 —下单重量 &gt; 误差？" vertex="1">
           <mxGeometry height="278" width="278" x="336" y="621" as="geometry" />
         </mxCell>
         <mxCell id="guJBmaV_uXlGGpxNqSXt-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="提示：揽收与下单重量差异!请核对，差异订单请取消（话术待修正）" vertex="1">
@@ -40,8 +40,8 @@
         <mxCell id="guJBmaV_uXlGGpxNqSXt-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="到达首中转中心，系统自动核重" vertex="1">
           <mxGeometry height="78" width="260" x="984" y="1126" as="geometry" />
         </mxCell>
-        <mxCell id="guJBmaV_uXlGGpxNqSXt-35" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="核重重量与下单重量超出1kg？" vertex="1">
-          <mxGeometry height="278" width="278" x="975" y="1279" as="geometry" />
+        <mxCell id="guJBmaV_uXlGGpxNqSXt-35" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="核重实际重量 —下单重量 &gt; 1kg？" vertex="1">
+          <mxGeometry height="278" width="278" x="939" y="1298" as="geometry" />
         </mxCell>
         <mxCell id="guJBmaV_uXlGGpxNqSXt-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="出发包裹拦截并退还" vertex="1">
           <mxGeometry height="54" width="204" x="855" y="1631" as="geometry" />
@@ -91,7 +91,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="guJBmaV_uXlGGpxNqSXt-46" edge="1" parent="1" source="guJBmaV_uXlGGpxNqSXt-30" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="guJBmaV_uXlGGpxNqSXt-31" value="超出误差">
+        <mxCell id="guJBmaV_uXlGGpxNqSXt-46" edge="1" parent="1" source="guJBmaV_uXlGGpxNqSXt-30" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="guJBmaV_uXlGGpxNqSXt-31" value="Y">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="312" y="936" />
@@ -103,8 +103,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="guJBmaV_uXlGGpxNqSXt-48" edge="1" parent="1" source="guJBmaV_uXlGGpxNqSXt-30" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="guJBmaV_uXlGGpxNqSXt-33" value="误差内">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="guJBmaV_uXlGGpxNqSXt-48" edge="1" parent="1" source="guJBmaV_uXlGGpxNqSXt-30" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="guJBmaV_uXlGGpxNqSXt-33" value="N">
+          <mxGeometry relative="1" x="0.1188" y="13" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="610" y="936" />
             </Array>
@@ -122,7 +123,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="guJBmaV_uXlGGpxNqSXt-51" edge="1" parent="1" source="guJBmaV_uXlGGpxNqSXt-35" style="curved=1;startArrow=none;endArrow=block;exitX=0.05;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="guJBmaV_uXlGGpxNqSXt-36" value="超出">
+        <mxCell id="guJBmaV_uXlGGpxNqSXt-51" edge="1" parent="1" source="guJBmaV_uXlGGpxNqSXt-35" style="curved=1;startArrow=none;endArrow=block;exitX=0.05;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="guJBmaV_uXlGGpxNqSXt-36" value="Y">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="957" y="1594" />
@@ -134,11 +135,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="guJBmaV_uXlGGpxNqSXt-53" edge="1" parent="1" source="guJBmaV_uXlGGpxNqSXt-35" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="guJBmaV_uXlGGpxNqSXt-38" value="正常">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1243" y="1594" />
-            </Array>
+        <mxCell id="guJBmaV_uXlGGpxNqSXt-53" edge="1" parent="1" source="guJBmaV_uXlGGpxNqSXt-35" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="guJBmaV_uXlGGpxNqSXt-38" value="N">
+          <mxGeometry relative="1" x="-0.0314" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="guJBmaV_uXlGGpxNqSXt-54" edge="1" parent="1" source="guJBmaV_uXlGGpxNqSXt-32" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.41;rounded=0;" target="guJBmaV_uXlGGpxNqSXt-39" value="">
